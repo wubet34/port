@@ -1,0 +1,339 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+.luxurious-script-regular {
+  font-family: "Luxurious Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+ */
+ body{
+    background-color: rgb(9, 9, 9);
+ }
+ .home{
+    font-family: "Ubuntu", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    padding: 0 80px;
+    align-items: center;
+    justify-content: center;
+ }
+ .home-img img{
+    width: 400px;
+    margin-top: 40px;
+    align-items: first baseline;
+ }
+ .home-text-title{
+    font-size: 20px;
+ }
+ .home-text-title h4{
+    font-size: 10px;
+    color: aquamarine;
+ }
+ .home-text-title p{
+    font-size: 15px;
+    color: #878383;
+ }
+ .home-text-title span{
+    color: rgb(21, 218, 218);
+ }
+ .home-text-title .w{
+    border-bottom: 2px solid;
+ }
+ .home-text-name{
+    margin-top: 40px;
+        font-family: "Luxurious Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+ }
+ .icon{
+margin-top: 20px; 
+font-size: 30px;
+color: rgb(21, 218, 218);
+}
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(54, 51, 51), rgb(46, 50, 46));
+}
+.brand img{
+    width: 80px;
+    margin-left: 20px;
+}
+.titleour{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.titleour h4{
+color: aquamarine;
+}
+.titleour h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.titleour p{
+    font-size: 12px;
+    color: #878383;
+}
+.titleour h1 span{ 
+    color: rgb(21, 218, 218);
+}
+#w{
+    border-bottom: 2px solid rgb(21, 218, 218);
+    color: #fff;
+}
+.our-service{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+}
+.work{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+#work{
+    border: 1px solid linear-gradient(rgb(68, 78, 68), rgb(6, 29, 21) );
+    outline: none;
+    margin: 10px;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #2a2727;
+    margin-top: 50px;
+    
+}
+#workq{
+    border: 1px solid linear-gradient(rgb(68, 78, 68), rgb(6, 29, 21) );
+    outline: none;
+    margin: 10px;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(68, 78, 68), rgb(6, 29, 21) );
+}
+#workq i{
+    font-size: 80px;
+text-align: center;
+color: aquamarine;
+padding: 40px;
+}
+#workq p{
+    text-align: center;
+    font-size: 14px;
+    color: #878383;
+}
+#workq h1{
+    font-size: 23px;
+    text-align: center;
+}
+
+#work i{
+    font-size: 80px;
+text-align: center;
+color: aquamarine;
+padding: 40px;
+}
+#work p{
+    text-align: center;
+    font-size: 13px;
+    color: #878383;
+}
+#work h1{
+    font-size: 20px;
+    text-align: center;
+}
+.our-team{
+    background-color: #2a2727;
+    align-items: center;
+    justify-content: center;
+}
+.team{
+    text-align: center;
+    margin-top: 80px;
+    font-family: "Ubuntu", sans-serif;
+
+}
+.team h4{
+    color: aquamarine;
+
+padding-top: 40px;
+}
+.team h1{
+    color: white;
+    margin-top: 10px;
+}
+.team span{
+    color: rgb(21, 218, 218);
+}
+.team #x{
+    color: white;
+    border-bottom: 2px solid rgb(21, 218, 218);
+}
+.team p{
+color: #878383;
+font-size: 12px;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+}
+.ikmages{
+align-items: center;
+justify-content: center;
+display: grid;
+grid-template-columns: 1fr 1fr;
+font-family: "Ubuntu", sans-serif;
+
+}
+.im img{
+   width: 150px;
+}
+.image1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background-color: #2d2b2b;
+    color: #fff;
+    margin: 10px;
+    padding:1px;
+    align-items: center;
+    justify-content: center;
+}
+.im-text{
+    font-size: 14px;
+}
+.im-text span{
+    color: aquamarine;
+}
+.im-text .icon{
+    font-size: 15px;
+}
+.im-text h1,p{
+    margin-top: 20px;
+}
+@media screen and (max-width: 458px) {
+
+    .home{
+        padding: 40px;
+        display: flex;
+        margin-top: 20px;
+    }
+    .home-img img{
+        width: 200px;
+        margin-top: -40px;
+    }
+    .home-text-title{
+        font-size: 10px;
+     }
+     .home-text-title h4{
+        font-size: 5px;
+        color: aquamarine;
+     }
+     .home-text-title h1{
+        font-size: 15px;
+     }
+     .home-text-title p{
+        font-size: 7px;
+     }
+     .brand img{
+        width: 50px;
+     }
+     .titleour h4{
+        font-size: 10px;
+     }
+     .titleour h1{
+        font-size: 20px;
+     }
+     .titleour p{
+        font-size: 8px;
+     }
+     .team h4{
+        font-size: 10px;
+     }
+     .team h1{
+        font-size: 20px;
+     }
+     .team p{
+        font-size: 5px;
+     }
+     .im img{
+        width: 70px;
+     }
+     .im-text h1{
+        font-size: 8px;
+     }
+     .im-text p{
+        font-size: 5px;
+     }
+     .im-text .icon{
+        font-size: 10px;
+     }
+
+     #work{
+        border: 1px solid linear-gradient(rgb(68, 78, 68), rgb(6, 29, 21) );
+        outline: none;
+        margin: 10px;
+        width: 100px;
+        height: 150px;
+        border-radius: 10px;
+        background-color: #2a2727;
+        margin-top: 50px;
+        
+    }
+    #workq{
+        border: 1px solid linear-gradient(rgb(68, 78, 68), rgb(6, 29, 21) );
+        outline: none;
+        margin: 10px;
+        width: 100px;
+        height: 150px;
+        border-radius: 10px;
+        background: linear-gradient(rgb(68, 78, 68), rgb(6, 29, 21) );
+    }
+    #workq i{
+        font-size: 40px;
+    text-align: center;
+    color: aquamarine;
+    padding: 20px;
+    }
+    #workq p{
+        text-align: center;
+        font-size: 8px;
+        color: #878383;
+        margin-top: -0px;
+    }
+    #workq h1{
+        font-size: 15px;
+        text-align: center;
+        margin-top: -20px;
+    }
+    
+    #work i{
+        font-size: 40px;
+    text-align: center;
+    color: aquamarine;
+    padding: 20px;
+    }
+    #work p{
+        text-align: center;
+        font-size: 8px;
+        color: #878383;
+        margin-top: -10px;
+    }
+    #work h1{
+        font-size: 10px;
+        text-align: center;
+        margin-top: -20px;
+    }
+}
